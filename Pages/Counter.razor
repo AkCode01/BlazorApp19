@@ -1,9 +1,10 @@
 ﻿@page "/counter"
+@using Microsoft.FluentUI.AspNetCore.Components.DesignTokens
 
 <PageTitle>Counter</PageTitle>
 
 <h1>Counter</h1>
-
+<hr />
 <p role="status">Current count: <FluentBadge Appearance="Appearance.Neutral">@currentCount</FluentBadge></p>
 
 <FluentButton Appearance="Appearance.Accent" @onclick="IncrementCount">Click me</FluentButton>
